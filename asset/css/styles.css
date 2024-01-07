@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color:#88AB8E;
+    --primary-color-light: #AFC8AD;
+    --secondary-color: #EEE7DA;
+    --secondary-color-light: #F2F1EB;
+    --text-black: #000000;
+    --text-gray: #666666;
+}
+.primary{
+    background-color: var(--primary-color);
+}
+.primary-light{
+    background-color: var(--primary-color-light);
+}
+.secondary{
+    background-color: var(--secondary-color);
+}
+.secondary-light{
+    background-color: var(--secondary-color-light);
+}
+.text-primary{
+    background-color: var(--text-primary);
+}
+.text-secondary{
+    background-color: var(--text-secondary);
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.text-primary-light{
+    color: var(--primary-color-light);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.text-secondary-light{
+    color: var(--secondary-color-light);
+}
+.text-black{
+    color: var(--text-black);
+}
+.text-gray{
+    color: var(--text-gray);
+}
