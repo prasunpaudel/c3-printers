@@ -4,32 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            display: flex;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sideNav {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sideNav div {
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        .sideNav div:hover {
+            background-color: #55a3d3;
+        }
+
+        .card {
+            flex: 2;
+            padding: 20px;
+        }
+
+        .card div {
+            display: none;
+            padding: 15px;
+            background-color: #dbdbdb;
+            border-radius: 5px;
+        }
+
+        .card div.active {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-    <!-- header  -->
-    <!-- header -->
     <div class="container">
-        <!-- choose garne wala -->
-        <div class="sideNav">
-            <div>Prasun Paudel</div>
-            <div>Shishir Paudel</div>
-            <div>Vivek Shrestha</div>
-            <div>Bishan Garbuja Pun</div>
-            <div>Nissan Shrestha</div>
+        <!-- Side navigation -->
+        <div class="sideNav primary">
+            <div onclick="showContent('prasun')">Prasun Paudel</div>
+            <div onclick="showContent('shishir')">Shishir Paudel</div>
+            <div onclick="showContent('vivek')">Vivek Shrestha</div>
+            <div onclick="showContent('bishan')">Bishan Garbuja Pun</div>
+            <div onclick="showContent('nissan')">Nissan Shrestha</div>
         </div>
-        <!-- choose garne wala -->
-        <!-- display garne wala -->
+        
+    
+        <!-- Display content -->
         <div class="card">
-            <div>Prasun Paudel</div>
-            <div>Shishir Paudel</div>
-            <div>Vivek Shrestha</div>
-            <div>Bishan Garbuja Pun</div>
-            <div>Nissan Shrestha</div>
+            <div id="prasun">Prasun Paudel's details</div>
+            <div id="shishir">Shishir Paudel's details</div>
+            <div id="vivek">Vivek Shrestha's details</div>
+            <div id="bishan">Bishan Garbuja Pun's details</div>
+            <div id="nissan">Nissan Shrestha's details</div>
         </div>
-        <!-- display garne wala -->
     </div>
+    
     <div>
         <p> hamro website ko intro ra short details</p>
     </div>
+    <script src="asset/js/main.js"></script>    
 </body>
 </html>
