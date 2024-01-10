@@ -5,7 +5,18 @@
 } 
 body
 {
-    background-color: rgb(200, 203, 203);
+    background-color: rgb(225, 228, 222);
     height: 100vh;
 }
 
+section{
+    display: flex;
+}
+.details{
+    flex: 30%;
+    background-color: aqua;
+}
+.form{
+    flex: 70%;
+    background-color: aliceblue;
+}
