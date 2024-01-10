@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    
+
 
     <style>
         .container {
@@ -55,40 +56,39 @@
         .card div.active {
             display: block;
         }
-
     </style>
 </head>
+
 <body>
-     <!-- navbar -->
-     <nav class="nav-main">
+    <!-- navbar -->
+    <nav class="nav-main">
         <ul>
-          <div class="nav-flex-container primary ">
-            <div class="nav-flex-items">
-              <a href="./index.html" title="Go to Homepage"><img src="./asset/image/logo.png" alt="" /></a>
-            </div>
-            <div class="nav-flex-items">
-              <li><a class="text-primary" href="./index.html">Home</a></li>
-              <li><a class="text-primary" href="./blog.html">Blogs</a></li>
-              <li>
-                <a class="text-primary" href="./product.html"
-                  >Products
-                  <!-- <ul>
+            <div class="nav-flex-container primary ">
+                <div class="nav-flex-items">
+                    <a href="./index.html" title="Go to Homepage"><img src="./asset/image/logo.png" alt="" /></a>
+                </div>
+                <div class="nav-flex-items">
+                    <li><a class="text-primary" href="./index.html">Home</a></li>
+                    <li><a class="text-primary" href="./blog.html">Blogs</a></li>
+                    <li>
+                        <a class="text-primary" href="./product.html">Products
+                            <!-- <ul>
                               <li class="submenu">Inkjet</li>
                               <li class="submenu">Laser Printers</li>
                               <li class="submenu"></li>
                               <li class="submenu"></li>
                               <li class="submenu"></li>
                           </ul> -->
-                </a>
-              </li>
-              <li><a class="text-primary" href="./aboutus.html">About_Us</a></li>
-              <li><a class="text-primary" href="./references.html">Research</a></li>
-              <li><a class="text-primary" href="./contact.html">contact</a></li>
+                        </a>
+                    </li>
+                    <li><a class="text-primary" href="./aboutus.html">About_Us</a></li>
+                    <li><a class="text-primary" href="./references.html">Research</a></li>
+                    <li><a class="text-primary" href="./contact.html">contact</a></li>
+                </div>
             </div>
-          </div>
         </ul>
-      </nav>
-      <!-- navbar -->
+    </nav>
+    <!-- navbar -->
     <div class="container">
         <!-- Side navigation -->
         <div class="sideNav primary">
@@ -98,21 +98,52 @@
             <div onclick="showContent('bishan')">Bishan Garbuja Pun</div>
             <div onclick="showContent('nissan')">Nissan Shrestha</div>
         </div>
-        
-    
+
+
         <!-- Display content -->
         <div class="card">
             <div id="prasun">Prasun Paudel's details</div>
             <div id="shishir">Shishir Paudel's details</div>
             <div id="vivek">Vivek Shrestha's details</div>
             <div id="bishan">Bishan Garbuja Pun's details</div>
-            <div id="nissan">Nissan Shrestha's details< /div>
+            <div id="nissan">Nissan Shrestha's details</div>
         </div>
     </div>
-    
+
     <div>
         <p> hamro website ko intro ra short details</p>
     </div>
-    <script src="asset/js/main.js"></script>    
+    <!----------- Footer section ----------->
+    <div class="footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="./index.html">Home</a>
+            <a href="./product.html">Products</a>
+            <a href="./blog.html">Blogs</a>
+            <a href="./references.html">Research</a>
+            <a href="./aboutus.html">About_Us</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <div class="col-2">
+            <h3>NEWSLETTER</h3>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button onclick="alert('Thank you for Subscribing');"> Subscribe</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <p>123, XYZ Road, BSK 3 <br>Pokhara, Newroad</p>
+            <div class="social-icons">
+                <img src="facebook icon halni" alt="icon">
+                <img src="insta icon halni" alt="icon">
+                <img src="twitter icon halni" alt="icon">
+                <img src="yt icon halni" alt="icon">
+            </div>
+        </div>
+    </div>
+    <script src="asset/js/main.js"></script>
 </body>
+
 </html>
