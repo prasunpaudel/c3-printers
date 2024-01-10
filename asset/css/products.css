@@ -18,7 +18,7 @@ nav ul{
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    background-color: green;
+
     align-items:center;
     justify-content: space-between;
 }
@@ -41,6 +41,7 @@ nav ul{
     
     padding: 1rem;
     background-color:rgb(49, 49, 49);
+    border-radius: 5px;
     
 }
 .nav-flex-container .nav-flex-items:nth-child(2){
@@ -51,7 +52,22 @@ nav ul{
 
 
 /* body */
+.body-flex-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    
+}
+.body-flex-items .printer{
+    flex-basis: 380px;
+}
 
+.body-main{
+    background-color: rgb(59, 59, 59);
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
 
 /* body-card */
 .card{
@@ -59,11 +75,25 @@ nav ul{
     display: inline-block;
     text-align: center;
     border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 .card .title{
     padding: .5rem;
     font-size: 2rem;
+    color: white;
+    font-weight: bold;
+
 }
+.card .subtitle{
+    padding: .5rem;
+    color: white;
+}
+.card img{
+    padding:1rem ;
+}
+
 /* body-card */
 
 /* body */

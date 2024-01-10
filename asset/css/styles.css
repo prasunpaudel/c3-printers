@@ -23,10 +23,10 @@
 .secondary-light{
     background-color: var(--secondary-color-light);
 }
-.text-primary{
+.bg-primary{
     background-color: var(--text-primary);
 }
-.text-secondary{
+.bg-secondary{
     background-color: var(--text-secondary);
 }
 .text-primary{
