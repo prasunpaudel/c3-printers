@@ -11,7 +11,7 @@
      <!-- navbar -->
      <nav class="nav-main">
       <ul>
-        <div class="nav-flex-container primary ">
+        <div class="nav-flex-container primary">
           <div class="nav-flex-items">
             <a href="./index.html" title="Go to Homepage"><img src="./asset/image/logo.png" alt="" /></a>
           </div>
@@ -39,7 +39,7 @@
     </nav>
     <!-- navbar -->
   <section>
-    <div class="details">
+    <div class="details primary-light">
       <h1>Let's get in touch</h1>
       <p>We're open for any suggestion or just to have a chat</p>
       <div><img src="" alt=""> <p><b>Address: </b> 198 West 21th Street,Suite 721 New York NY 10016</p></div>
@@ -47,26 +47,61 @@
       <div><img src="" alt=""><p><b>Email:</b>info@yoursite.com</p></div>
       <div><img src="" alt=""><p><b>Website:</b>yoursite.com</p></div>
     </div>
-    <div class="form">
+    <div class="form secondary">
       <h1>Get in touch</h1>
-      <div>
-        <label for="fullName">fullName</label>
-        <input type="text" name="fullName" id="fullName">
-      </div>
-      <div>
-        <label for="emailAddress">emailAddress</label>
-        <input type="email" name="emailAddress" id="emailAddress">
-      </div>
-      <div>
-        <label for="subject">subject</label>
-        <input type="text" name="subject" id="subject">
-      </div>
-      <div>
-        <label for="message">message</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-      </div>
-      <button>Send Message</button>
+      <form action="" class="contactForm">
+        <div>
+          <label for="fullName">FullName : </label><br>
+          <input class="input" type="text" name="fullName" id="fullName" >
+        </div>
+        <div>
+          <label for="emailAddress">EmailAddress : </label><br>
+          <input class="input" type="email" name="emailAddress" id="emailAddress">
+        </div>
+        <div>
+          <label for="subject">Subject : </label><br>
+          <input class="input" type="text" name="subject" id="subject">
+        </div>
+        <div>
+          <label for="message">Message : </label><br>
+          <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+        <div class="submit">
+          <button class="submitBtn" type="submit">Send Message</button>
+        </div>
+      </form>
     </div>
   </section>
+   <!----------- Footer section ----------->
+   <footer class="footer">
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="./index.html">Home</a>
+        <a href="./product.html">Products</a>
+        <a href="./blog.html">Blogs</a>
+        <a href="./references.html">Research</a>
+        <a href="./aboutus.html">About_Us</a>
+        <a href="./contact.html">Contact</a>
+    </div>
+    <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form class="footerForm">
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button onclick="alert('Thank you for Subscribing');"> Subscribe</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>123, XYZ Road, BSK 3 <br>Pokhara, Newroad</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><img src="asset/image/facebook.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
+            <a href="https://instagram.com" target="_blank"><img src="asset/image/instagram.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
+            <a href="https://twitter.com" target="_blank"><img src="asset/image/x.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
+            <a href="https://youtube.com" target="_blank"><img src="asset/image/youtube.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
+            <a href="https://whatsapp.com" target="_blank"><img src="asset/image/whatsapp.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
-    
+    font-family: 'Comic Neue', cursive;
 }
 :root {
     --primary-color:#88AB8E;
@@ -117,7 +116,7 @@ nav ul{
     color:#efefef;
     margin-bottom:10px;
    }
-   form input{
+   .footerForm input{
     width: 400px;
     height: 45px;
     border-radius: 4px;
@@ -127,7 +126,7 @@ nav ul{
     outline:none;
     border: none;
    }
-   form button{
+   .footerForm button{
     background:transparent;
     border: 2px solid #fff;
     color:#fff;

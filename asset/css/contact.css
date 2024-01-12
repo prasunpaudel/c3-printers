@@ -1,24 +1,83 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 } 
 body
 {
-    background-color: rgb(225, 228, 222);
     height: 100vh;
+    font-size: 20px;
 }
 
 section{
     display: flex;
+    padding: 100px 100px 0 100px;
 }
 .details{
-    flex: 30%;
-    background-color: rgb(62, 229, 170);
+    flex: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
 }
 .form{
-    flex: 70%;
-    background-color: aliceblue;
+    flex: 60%;
+    padding: 30px 50px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.contactForm div label{
+    font-size: 20px;
+    margin: 5px;
+}
+.contactForm div .input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #312e2e;
+    background:transparent;
+    width: 600px;
+    padding: 5px;
+    margin: 5px;
+}
+.contactForm div .input:focus{
+    border-bottom: 2px solid #88AB8E;
+}
+.contactForm div .input::placeholder{
+    color: #ccc;
+}
+.contactForm div textarea{
+    outline: none;
+    border: none;
+    border: 2px solid #312e2e;
+    background:transparent;
+    width: 600px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contactForm div textarea:focus{
+    border: 2px solid #88AB8E;
+}
+.submit{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.submitBtn{
+    background: #88AB8E;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
 }
 .button{
     background-color: rgb(62, 229, 170);
