@@ -63,7 +63,9 @@ nav ul{
 .body-main{
     background-color: rgb(59, 59, 59);
     padding: 1rem;
-    margin: 2rem;
+    margin-left: 2rem;  
+    margin-right: 2rem;
+    margin-top: 2rem;
     border-radius: 10px;
 }
 
@@ -74,8 +76,12 @@ nav ul{
     text-align: center;
     border-radius: 20px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     
+}
+.card:hover{
+    background-color: grey;
+    transition-duration: 1s;
 }
 .card .title{
     padding: .5rem;
