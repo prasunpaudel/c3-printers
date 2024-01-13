@@ -12,19 +12,23 @@
     
 }
 .body-flex-items .printer{
-    flex-basis: 380px;
+    flex-basis: 390px;
+    /* flex basis is determining the size of the card */
 }
 
 .body-main{
-    background-color: rgb(59, 59, 59);
+    /* background-color: rgb(59, 59, 59); */
     padding: 1rem;
     margin-left: 2rem;  
     margin-right: 2rem;
     margin-top: 2rem;
     border-radius: 10px;
+    border-style:dotted;
+    border-color: gray;
 }
 
 /* body-card */
+
 .card{
     background-color:#88AB8E;
     display: inline-block;
@@ -35,8 +39,15 @@
     
 }
 .card:hover{
-    background-color: grey;
+    background-color:#4d6b52 ;
     transition-duration: 1s;
+
+    img{
+        height: 200px;
+        padding: .7rem;
+        /* the padding change is to makeup for the fact increase in size of the image */
+    }
+
 }
 .card .title{
     padding: .5rem;
@@ -51,6 +62,7 @@
 }
 .card img{
     padding:1rem ;
+    border-radius: 25px;
 }
 
 /* body-card */
