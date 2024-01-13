@@ -9,58 +9,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
   </head>
   <body>
-        <!-- navbar -->
-        <nav class="nav-main">
-          <ul>
-            <div class="nav-flex-container primary ">
-              <div class="nav-flex-items">
-                <a href="./index.html" title="Go to Homepage"><img src="./asset/image/logo.png" alt="" /></a>
-              </div>
-              <div class="nav-flex-items">
-                <li><a class="text-primary" href="./index.html">Home</a></li>
-                <li><a class="text-primary" href="./blog.html">Blogs</a></li>
-                <li>
-                  <a class="text-primary" href="./product.html"
-                    >Products
-                    <!-- <ul>
-                                <li class="submenu">Inkjet</li>
-                                <li class="submenu">Laser Printers</li>
-                                <li class="submenu"></li>
-                                <li class="submenu"></li>
-                                <li class="submenu"></li>
-                            </ul> -->
-                  </a>
-                </li>
-                <li><a class="text-primary" href="./aboutus.html">About_Us</a></li>
-                <li><a class="text-primary" href="./references.html">Research</a></li>
-                <li><a class="text-primary" href="./contact.html">contact</a></li>
-              </div>
-            </div>
-          </ul>
-        </nav>
-        <!-- navbar -->
+    <!-- navbar -->
+    <nav class="nav-main">
+      <ul>
+        <div class="nav-flex-container primary">
+          <div class="nav-flex-items">
+            <a href="./index.html" title="Go to Homepage"
+              ><img src="./asset/image/logo.png" alt=""
+            /></a>
+          </div>
+          <div class="nav-flex-items">
+            <li><a class="text-primary" href="./index.html">Home</a></li>
+            <li><a class="text-primary" href="./blog.html">Blogs</a></li>
+            <li>
+              <a class="text-primary" href="./product.html">Products</a>
+            </li>
+            <li><a class="text-primary" href="./aboutus.html">About_Us</a></li>
+            <li>
+              <a class="text-primary" href="./references.html">Research</a>
+            </li>
+            <li><a class="text-primary" href="./contact.html">contact</a></li>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <!-- navbar -->
 
     <!-- main body  -->
 
     <!-- inline css -->
     <div class="body-main" style="position: relative">
-      <p class="text-gray"
+      <p
+        class="text-gray"
         style="
-          font-size: 3rem;
+          font-size: 4rem;
           font-weight: bold;
           padding: 1rem;
           margin: 1rem 0;
-          width: fit-content;
+          /* to center the our product */
           position: relative;
-          left: 40%;
+          left: 50%;
+          transform: translate(-50%);
+          text-align: center;
+          /* to center the our product */
         "
       >
         Our Products
       </p>
 
       <!-- inline css -->
-
-   
 
       <div class="body-flex-items">
         <div class="item-1 printer">
@@ -93,7 +90,7 @@
             <p class="subtitle">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             </p>
-            <img 
+            <img
               src="./asset/image/laser.jpeg"
               alt="load vayena bhane yo auxa"
             />
@@ -177,33 +174,60 @@
     <!----------- Footer section ----------->
     <footer class="footer">
       <div class="col-1">
-          <h3>USEFUL LINKS</h3>
-          <a href="./index.html">Home</a>
-          <a href="./product.html">Products</a>
-          <a href="./blog.html">Blogs</a>
-          <a href="./references.html">Research</a>
-          <a href="./aboutus.html">About_Us</a>
-          <a href="./contact.html">Contact</a>
+        <h3>USEFUL LINKS</h3>
+        <a href="./index.html">Home</a>
+        <a href="./product.html">Products</a>
+        <a href="./blog.html">Blogs</a>
+        <a href="./references.html">Research</a>
+        <a href="./aboutus.html">About_Us</a>
+        <a href="./contact.html">Contact</a>
       </div>
       <div class="col-2">
-          <h3>NEWSLETTER</h3>
-          <form class="footerForm">
-              <input type="email" placeholder="Your Email Address" required>
-              <br>
-              <button onclick="alert('Thank you for Subscribing');"> Subscribe</button>
-          </form>
+        <h3>NEWSLETTER</h3>
+        <form class="footerForm">
+          <input type="email" placeholder="Your Email Address" required />
+          <br />
+          <button onclick="alert('Thank you for Subscribing');">
+            Subscribe
+          </button>
+        </form>
       </div>
       <div class="col-3">
-          <h3>CONTACT</h3>
-          <p>123, XYZ Road, BSK 3 <br>Pokhara, Newroad</p>
-          <div class="social-icons">
-              <a href="https://facebook.com" target="_blank"><img src="asset/image/facebook.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
-              <a href="https://instagram.com" target="_blank"><img src="asset/image/instagram.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
-              <a href="https://twitter.com" target="_blank"><img src="asset/image/x.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
-              <a href="https://youtube.com" target="_blank"><img src="asset/image/youtube.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
-              <a href="https://whatsapp.com" target="_blank"><img src="asset/image/whatsapp.png" alt="icon" style="height: 20px; width: 20px; padding: 5px;"></a>
-          </div>
+        <h3>CONTACT</h3>
+        <p>123, XYZ Road, BSK 3 <br />Pokhara, Newroad</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"
+            ><img
+              src="asset/image/facebook.png"
+              alt="icon"
+              style="height: 20px; width: 20px; padding: 5px"
+          /></a>
+          <a href="https://instagram.com" target="_blank"
+            ><img
+              src="asset/image/instagram.png"
+              alt="icon"
+              style="height: 20px; width: 20px; padding: 5px"
+          /></a>
+          <a href="https://twitter.com" target="_blank"
+            ><img
+              src="asset/image/x.png"
+              alt="icon"
+              style="height: 20px; width: 20px; padding: 5px"
+          /></a>
+          <a href="https://youtube.com" target="_blank"
+            ><img
+              src="asset/image/youtube.png"
+              alt="icon"
+              style="height: 20px; width: 20px; padding: 5px"
+          /></a>
+          <a href="https://whatsapp.com" target="_blank"
+            ><img
+              src="asset/image/whatsapp.png"
+              alt="icon"
+              style="height: 20px; width: 20px; padding: 5px"
+          /></a>
+        </div>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
