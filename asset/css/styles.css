@@ -83,7 +83,7 @@ nav ul{
     
     padding: 1rem;
     background-color:rgb(49, 49, 49);
-    border-radius: 5px;
+    /* border-radius: 5px;*/
     
 }
 .nav-flex-container .nav-flex-items:nth-child(2){
