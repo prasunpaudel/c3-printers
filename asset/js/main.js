@@ -3,8 +3,8 @@ function showContent(targetId) {
 
     if (targetDiv) {
         // Hide all card divs
-        document.querySelectorAll('.card div').forEach(function (div) {
-            div.classList.remove('active');
+        document.querySelectorAll('.card div').forEach(function (ele) {
+            ele.classList.remove('active');
         });
 
         // Show the selected card div
