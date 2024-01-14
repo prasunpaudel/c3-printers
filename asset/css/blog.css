@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container section{
+    width: 70%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+.container section div{
+    background: blue;
+    width: 50%;
+}
