@@ -12,7 +12,7 @@
     
 }
 .body-flex-items .printer{
-    flex-basis: 390px;
+    flex-basis: 380px;
     /* flex basis is determining the size of the card */
 }
 
