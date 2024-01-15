@@ -90,8 +90,9 @@
     border-radius: 5px;
 }
 .pagination-main ul li a:hover{
-    background-color: #88AB8E;
+    background-color: #333;
 }
 .pagination-main ul li .active{
     background-color: #4d6b52;
+    font-weight: 900;
 }
