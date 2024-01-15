@@ -86,9 +86,12 @@ nav ul{
     /* border-radius: 5px;*/
     
 }
+
 .nav-flex-container .nav-flex-items:nth-child(2){
     margin-right: 40px;
 }
+
+
 /* navbar */
 /* Footer section------------- */
 .footer{
