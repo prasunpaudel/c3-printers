@@ -70,7 +70,6 @@ section{
 
 }
 .submitBtn{
-    background: #88AB8E;
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -78,7 +77,4 @@ section{
     cursor: pointer;
     font-size: 20px;
     color: #fff;
-}
-.button{
-    background-color: rgb(62, 229, 170);
 }

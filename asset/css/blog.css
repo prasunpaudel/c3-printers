@@ -4,13 +4,28 @@
 }
 .container section{
     width: 70%;
-    background: red;
     display: flex;
-    justify-content: center;
     margin:auto;
+    color: #fff;
 }
 
-.container section div{
+.container section .content{
     background: #88AB8E;
-    width: 50%;
+    padding: 10px 30px;
+    text-align: center;
+}
+.learnMore{
+    padding: 30px;
+}
+.learnMore a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.learnMore a:visited{
+    color: #888;
+}
+.learnMore a:hover{
+    color:#ccc;
 }
