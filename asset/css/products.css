@@ -17,13 +17,14 @@
 }
 
 .body-main{
-    padding: 1rem;
+    padding: 2rem;
     margin-left: 2rem;  
     margin-right: 2rem;
     margin-top: 2rem;
     border-radius: 10px;
     border-style:dotted;
     border-color: gray;
+    
 }
 .printer a{
     text-decoration: none;
@@ -70,3 +71,28 @@
 /* body-card */
 
 /* body */
+
+.pagination-main{
+    text-align: center;
+}
+.pagination-main ul{
+    list-style: none;
+}
+.pagination-main ul li{
+    display: inline-block;
+    margin:0.5rem 0.5rem;
+}
+.pagination-main ul li a{
+    text-decoration: none;
+    color:white;
+    background-color:#888;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.pagination-main ul li a:hover{
+    background-color: #333;
+}
+.pagination-main ul li .active{
+    background-color: #4d6b52;
+    font-weight: 900;
+}
