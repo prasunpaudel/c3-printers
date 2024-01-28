@@ -96,15 +96,14 @@ nav ul {
     margin-left: 40px;
 }
 
-.nav-flex-items li a:hover {
-    padding: 13px;
-    background-color: rgb(49, 49, 49);
+.nav-flex-items li a.active {
+    color: var(--text-black);
     border-radius: 5px;
 }
-
-.nav-flex-items li a.active {
-    background-color: rgb(49, 49, 49);
+.nav-flex-items li a:hover {
+    color: var(--text-black);
     border-radius: 5px;
+    transition: 1s;
 }
 
 .nav-flex-container .nav-flex-items:nth-child(2) {
