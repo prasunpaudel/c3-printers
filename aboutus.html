@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-
     <style>
         .container {
-            max-width: 800px;
+            width: 800px;
             margin: 50px auto;
             display: flex;
             background-color: #f4f4f4;
@@ -34,7 +33,6 @@
             padding: 10px;
             margin-bottom: 5px;
             border-radius: 3px;
-            transition: background-color 0.3s;
         }
 
         .sideNav div:hover {
@@ -47,14 +45,36 @@
         }
 
         .card div {
+            text-align: center;
             display: none;
             padding: 15px;
+            height: 550px;
+            width: 550px;
             background-color: #dbdbdb;
             border-radius: 5px;
+            overflow-x: hidden;
+            overflow-y: scroll;
         }
 
         .card div.active {
             display: block;
+        }
+        .card div img{
+            width: 500px;
+            height: 500px;
+            object-fit:cover;
+            border-radius: 50%;
+        }
+        .card div p{
+            text-align: justify;
+            font-size: 20px;
+            font-weight: 500;
+            padding-top: 40px;
+        }
+        .web-details{
+            padding: 50px;
+            font-size: 20px;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -70,18 +90,8 @@
                 <div class="nav-flex-items">
                     <li><a class="text-primary" href="./index.html">Home</a></li>
                     <li><a class="text-primary" href="./blog.html">Blogs</a></li>
-                    <li>
-                        <a class="text-primary" href="./product.html">Products
-                            <!-- <ul>
-                              <li class="submenu">Inkjet</li>
-                              <li class="submenu">Laser Printers</li>
-                              <li class="submenu"></li>
-                              <li class="submenu"></li>
-                              <li class="submenu"></li>
-                          </ul> -->
-                        </a>
-                    </li>
-                    <li><a class="text-primary" href="./aboutus.html">About_Us</a></li>
+                    <li><a class="text-primary" href="./product.html">Products</a></li>
+                    <li><a class="text-primary active" href="./aboutus.html">About_Us</a></li>
                     <li><a class="text-primary" href="./references.html">Research</a></li>
                     <li><a class="text-primary" href="./contact.html">contact</a></li>
                 </div>
@@ -102,15 +112,40 @@
 
         <!-- Display content -->
         <div class="card">
-            <div id="prasun">Prasun Paudel's details</div>
-            <div id="shishir"> <img src="./asset/image/shishir.jpg" alt="">Shishir Paudel's details</div>
-            <div id="vivek"><img src="./asset/image/vivek.JPG" alt="">Vivek Shrestha's details</div>
-            <div id="bishan">Bishan Garbuja Pun's details</div>
-            <div id="nissan">Nissan Shrestha's details</div>
+            <div id="prasun">
+                <img src="./asset/image/prasun.jpg" alt=""><br>
+                <p>
+                    Hi this Prasun Paudel. I am a student currently studing BIT in ICP. I am from Pokhara. 
+                </p>
+            </div>
+            <div id="shishir">
+                <img src="./asset/image/shishir.jpg" alt=""><br>
+                <p>
+                    Hi this Shishir Paudel. I am a student currently studing BIT in ICP. I am from pokhara.
+                </p>
+            </div>
+            <div id="vivek" id="shishir">
+                <img src="./asset/image/vivek.JPG" alt=""><br>
+                <p>
+                    Hi this Vivek Shrestha. I am a student currently studing BIT in ICP. I am from pokhara.
+                </p>
+            </div>
+            <div id="bishan">
+                <img src="./asset/image/user.jpg" alt=""><br>
+                <p>
+                    Hi this Bishan Garbuja Pun. I am a student currently studing BIT in ICP. I am from pokhara.
+                </p>
+            </div>
+            <div id="nissan">
+                <img src="./asset/image/user.jpg" alt=""><br>
+                <p>
+                    Hi this Nissan Shrestha. I am a student currently studing BIT in ICP. I am from pokhara.
+                </p>
+            </div>
         </div>
     </div>
 
-    <div>
+    <div class="web-details">
         <p> hamro website ko intro ra short details</p>
     </div>
     <!----------- Footer section ----------->
@@ -126,10 +161,10 @@
         </div>
         <div class="col-2">
             <h3>NEWSLETTER</h3>
-            <form class="footerForm">
+            <form class="footerForm" onsubmit="alert('Thank you for Subscribing');">
                 <input type="email" placeholder="Your Email Address" required>
                 <br>
-                <button onclick="alert('Thank you for Subscribing');"> Subscribe</button>
+                <button> Subscribe</button>
             </form>
         </div>
         <div class="col-3">
