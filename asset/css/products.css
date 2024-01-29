@@ -13,10 +13,10 @@
 }
 
 .body-main{
-    padding: 2rem;
-    margin-left: 2rem;  
-    margin-right: 2rem;
-    margin-top: 2rem;
+    padding: 32px;
+    margin-left: 32px;  
+    margin-right: 32px;
+    margin-top: 32px;
     border-radius: 10px;
     border-style:dotted;
     border-color: gray;
@@ -32,8 +32,8 @@
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-top: 16px;
+    margin-bottom: 48px;
     
     
 }
@@ -42,33 +42,47 @@
     transition-duration: 1s;
 
     img{
-        height: 200px;
-        padding: .7rem;
+        height: 190px !important;
+        padding: 12px;
         /* the padding change is to makeup for the fact increase in size of the image */
+    }
+    .shop{
+        text-decoration:underline;
     }
 
 }
 .card .title{
-    padding: .5rem;
-    font-size: 2rem;
+    padding: 8px;
+    font-size: 32px;
     color: white;
     font-weight: bold;
 
 }
 .card .subtitle{
-    padding: .5rem;
     color: white;
+    padding:10px 20px;
+    font-size: 14px;
+    text-align: justify;
+    
 }
 .card img{
-    padding:1rem ;
+    padding:16px ;
     border-radius: 25px;
+    height: 180px;
+}
+.card .shop{
+    text-align: left;
+    padding: 0 18px;
+    color:white;
+    font-weight: bold;
+  
 }
 
 /* body-card */
 
 /* body */
 
-.pagination-main{
+/* .pagination-main{
     text-align: center;
 }
 .pagination-main ul{
@@ -76,7 +90,7 @@
 }
 .pagination-main ul li{
     display: inline-block;
-    margin:0.5rem 0.5rem;
+    margin:8px 16px;
 }
 .pagination-main ul li a{
     text-decoration: none;
@@ -91,4 +105,4 @@
 .pagination-main ul li .active{
     background-color: #4d6b52;
     font-weight: 900;
-}
+} */
