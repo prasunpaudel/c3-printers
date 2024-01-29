@@ -26,3 +26,6 @@
 .learnMore a:hover{
     color:#ccc;
 }
+.container section{
+    height: 400px;
+}
