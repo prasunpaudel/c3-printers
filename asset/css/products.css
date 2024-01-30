@@ -43,7 +43,7 @@
 
     img{
         height: 190px !important;
-        padding: 12px;
+        padding:11px;
         /* the padding change is to makeup for the fact increase in size of the image */
     }
     .shop{
@@ -65,10 +65,12 @@
     text-align: justify;
     
 }
-.card img{
+.card .image{
     padding:16px ;
     border-radius: 25px;
     height: 180px;
+    object-fit: cover;
+    width: 250px;
 }
 .card .shop{
     text-align: left;
@@ -106,14 +108,14 @@
     background-color: #4d6b52;
     font-weight: 900;
 } */
-.card a ul li{
+.card ul li{
     color:white;
     text-align: left;
     padding: 0 16px;
     font-size: 14px;
 }
-.card a ul{
-    /* list-style:none; */
+.card  ul{
+   
     list-style-position: inside;
 }
 
@@ -132,6 +134,14 @@
 .card .cart p:hover {
     background-color:black;
 }
-.card del,.card p{
+.card del{
     color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
