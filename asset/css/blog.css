@@ -7,11 +7,12 @@
 
 .container section .content{
     background: #88AB8E;
-    padding: 10px 30px;
+    padding: 75px 30px;
     text-align: center;
 }
 .learnMore{
     padding: 30px;
+    
 }
 .learnMore a{
     text-decoration: none;
