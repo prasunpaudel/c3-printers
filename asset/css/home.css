@@ -2,21 +2,19 @@ body{
     background-color:gray;
 }
 .welcome{
-    background-image:url(../image/landing.jpg);
+    background-image:url(../image/landingpage-ezgif.com-webp-to-jpg-converter.jpg);
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
-    margin-bottom:5px;
 }
 .product{
-    background-color: black;
+    background-color: #EEE7DA;
     display: flex;
     flex-flow: row wrap;
     flex-basis: 750px;
     justify-content: space-around;
     text-align: center;
     padding: 100px 0;
-    margin-bottom: 5px;
 }
 .left{
     flex: 1;  
@@ -50,14 +48,13 @@ body{
     background-color: #394b3c;
 }
 .blog{
-    background-color: black;
+    background-color: #EEE7DA;
     display: flex;
     flex-flow: row wrap;
     flex-basis: 750px;
     justify-content: space-around;
     text-align: center;
     padding: 100px 0;
-    margin-bottom: 5px; 
 }
 .left-blog{
     flex: 1;
