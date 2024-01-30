@@ -1,0 +1,64 @@
+body{
+    background-color:gray;
+}
+.welcome{
+    background-image:url(../image/landingpage-ezgif.com-webp-to-jpg-converter.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.product{
+    background-color: #EEE7DA;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 750px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0;
+}
+.left{
+    flex: 1;  
+}
+.right{
+    flex: 1;
+    
+}
+.right p a{
+    text-decoration: none;
+    background-color:#88AB8E;
+    padding: 16px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+.right p a:hover{
+    background-color: #394b3c;
+}
+.left-blog p a{
+    text-decoration: none;
+    background-color:#88AB8E;
+    padding: 16px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left:15%;
+}
+.left-blog p a:hover{
+    background-color: #394b3c;
+}
+.blog{
+    background-color: #EEE7DA;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 750px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0;
+}
+.left-blog{
+    flex: 1;
+}
+.right-blog{
+    flex:1;
+}
