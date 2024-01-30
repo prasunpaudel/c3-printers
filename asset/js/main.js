@@ -14,7 +14,7 @@ function showContent(targetId) {
 }
 //form validation in contact section
 function validateForm(){
-	var name= document.forms["contactForm"][""]["fullName"].value;
+	var name= document.forms["contactForm"]["fullName"].value;
 	var emailAddress= document.forms["contactForm"]["emailAddress"].value;
 	var subject= document.forms["contactForm"]["subject"].value;
 	var message= document.forms["contactForm"]["message"].value;
