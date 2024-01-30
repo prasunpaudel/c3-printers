@@ -4,18 +4,18 @@ body{
 section .refrence{
     margin: auto !important;
 }
-section .refrence tbody tr td .blogImg{
-    width: 700px ;
-    height: 500px;
+section .refrence tbody tr td .contactImg{
+    width: 600px ;
+    height: 250px;
     object-fit: contain;
 }
-section .refrence tbody tr td .contactImg{
+section .refrence tbody tr td .blogImg{
     width: 500px ;
     height: 500px;
     object-fit: contain;
 }
 section .refrence tbody tr td .productImg{
-    width: 300px ;
+    width: 550px ;
     height: 500px;
     object-fit: contain;
 }
@@ -23,5 +23,5 @@ table{
     background: #fff;
 }
 td{
-    padding: 35px 0 ;
+    padding: 20px 0 ;
 }
