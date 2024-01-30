@@ -3,7 +3,6 @@
     width: 70%;
     display: flex;
     margin:auto;
-    color: #fff;
 }
 
 .container section .content{
@@ -28,4 +27,30 @@
 }
 .container section{
     height: 400px;
+}
+.content {
+    text-align: center;
+    padding: 50px;
+}
+.technologyDetails{
+    padding: 30px;
+    text-align: center;
+}
+.aboutTechnology{
+    background-color: #EEE7DA;
+}
+.blogHistory{
+    padding: 30px;
+    text-align: center;
+    background-color: #EEE7DA;
+}
+.dailyLifeImpact{
+    padding: 30px;
+    text-align: center;
+    background-color: #EEE7DA;
+}
+.conclusion-1{
+    padding: 50px;
+    background-color: #EEE7DA;
+
 }
