@@ -1,11 +1,8 @@
-body{
-    background-color:gray;
-}
 .welcome{
     background-image:url(../image/landingpage-ezgif.com-webp-to-jpg-converter.jpg);
     height: 115vh;
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 .product{
     background-color: #EEE7DA;
