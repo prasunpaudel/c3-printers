@@ -48,7 +48,7 @@
     </div>
     <div class="form secondary">
       <h1>Get in touch</h1>
-      <form action="" class="contactForm">
+      <form onsubmit="validateForm()" class="contactForm">
         <div>
           <label for="fullName">FullName : </label><br>
           <input class="input" type="text" name="fullName" id="fullName">
@@ -66,7 +66,7 @@
           <textarea name="message" id="message" cols="50" rows="5"></textarea>
         </div>
         <div class="submit">
-          <button class="submitBtn primary" type="submit">Send Message</button>
+          <input class="submitBtn primary" type="submit">
         </div>
       </form>
     </div>
@@ -102,6 +102,7 @@
         </div>
     </div>
 </footer>
+<script src="asset/js/main.js"></script>
 </body>
 
 </html>

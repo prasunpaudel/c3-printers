@@ -1,9 +1,6 @@
 section .refrence{
     margin: auto !important;
 }
-section .refrence img{
-    width: 700px;
-}
 section .refrence tbody tr td img{
     width: 700px ;
     height: 500px;
